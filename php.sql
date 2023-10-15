@@ -1,0 +1,16 @@
+CREATE TABLE stores (
+  name VARCHAR(50) PRIMARY KEY,
+  x INT NOT NULL,
+  y INT NOT NULL
+);
+
+CREATE TABLE kiosks (
+  id INT PRIMARY KEY,
+  x INT NOT NULL,
+  y INT NOT NULL
+);
+
+CREATE TABLE closed (
+  x INT NOT NULL,
+  y INT NOT NULL
+);
